@@ -39,7 +39,7 @@ public class Job {
         Job job = (Job) o;
         return id != null && Objects.equals(id, job.id);
     }
-
+//ddddd
     @Override
     public int hashCode() {
         return getClass().hashCode();
